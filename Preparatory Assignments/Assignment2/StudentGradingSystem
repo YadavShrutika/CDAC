@@ -1,0 +1,23 @@
+public class StudentGradingSystem 
+{
+    public static void main(String[] args) 
+	{
+        int marks = 85; 
+        char grade = calculateGrade(marks);
+        System.out.println("The grade is: " + grade);
+    }
+
+    public static char calculateGrade(int marks)
+	{
+        if (marks >= 90) {
+            return 'A';
+        } else if (90< marks >= 80) {
+            return 'B';
+        } else if (79< marks >= 70) {
+            return 'C';
+        } else if (69< marks >= 60) {
+            return 'D';
+        } else {
+            return 'F';
+        }
+    }

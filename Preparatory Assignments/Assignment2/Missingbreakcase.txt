@@ -1,0 +1,23 @@
+public class Missingbreakcase{
+
+  public static void main(String args[])
+  {
+  int level=1;
+  switch(level)
+  { 
+  case1:
+  System.out.println("level 1");
+  case2:
+  
+  System.out.println("level2");
+  case3:
+  
+  System.out.println("level3");
+  default:
+  
+  System.out.println("unknown level");
+  }
+  }
+}
+
+error
