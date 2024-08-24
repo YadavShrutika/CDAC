@@ -1,0 +1,37 @@
+class Q11
+{
+public static void main(String args[])
+{
+/*int a=5;
+int b=10;
+
+int result =++a + b--;
+
+System.out.println("value after pre increment : " +a); //6
+System.out.println("value after post decrement : " +b);         //9
+System.out.println("Result of the expression : "+ (++a + b--));
+*/
+
+/*  D:\PreparatoryAssignments\Assignment3>java Q11
+value after pre increment : 6
+value after post decrement : 9
+Result of the expression : 16   */
+
+
+int a=5;
+int b=10;
+
+int result =a++ + --b;
+
+System.out.println("value after post increment : " +a);
+System.out.println("value after pre decrement : " +b);
+System.out.println("Result of the expression : "+ (a++ + --b));
+
+}
+}
+
+/*D:\PreparatoryAssignments\Assignment3>java Q11
+value after post increment : 6
+value after pre decrement : 9
+Result of the expression : 14
+*/
